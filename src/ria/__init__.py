@@ -8,5 +8,10 @@ def home():
     return render_template("home.html")
 
 
+@app.route("/aboutme")
+def aboutme():
+    return render_template("aboutme.html")
+
+
 def main() -> None:
     app.run(debug=True)
