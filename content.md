@@ -1,5 +1,8 @@
 # Creating Content on a Page
 
+# see also
+<https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-ii-templates>
+
 All page content goes inside `{% block content %}...{% endblock %}` in your template file.
 
 ## HTML basics
